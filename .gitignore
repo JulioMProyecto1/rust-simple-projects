@@ -1,0 +1,19 @@
+# ===== Rust / Cargo =====
+/target/
+**/target/
+
+# Cargo.lock
+# Keep this if these are binaries / apps (recommended)
+Cargo.lock
+
+# Remove this ignore if you want to commit Cargo.lock for libs
+# !Cargo.lock
+
+# ===== IDE / Editor =====
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store

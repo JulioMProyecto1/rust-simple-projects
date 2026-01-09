@@ -2,12 +2,13 @@
 /target/
 **/target/
 
-# Cargo.lock
-# Keep this if these are binaries / apps (recommended)
+# Binaries / apps should commit Cargo.lock
 Cargo.lock
 
-# Remove this ignore if you want to commit Cargo.lock for libs
-# !Cargo.lock
+# ===== Emacs =====
+*~
+\#*\#
+.\#*
 
 # ===== IDE / Editor =====
 .idea/
